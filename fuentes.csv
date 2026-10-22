@@ -1,0 +1,32 @@
+﻿fuente,como_la_verifique,que_verifique,limites_o_correcciones,estado
+"Grime 1977, Am. Nat. 111(982):1169-1194",Texto completo,"Definiciones de estrés y perturbación; alto estrés + alta perturbación: sin estrategia viable; rasgos ruderales (ciclo anual o perenne corto, alta producción de materia seca, gran proporción a semillas, semillas enterradas longevas y germinación rápida con luz o fluctuación térmica); predominio competidor en hábitats productivos poco perturbados.","Los rasgos son de 'muchas' ruderales, no de todas.",Verificada
+"Grime 1979, Plant Strategies and Vegetation Processes",No abierta (libro),Solo como cita dentro de otros artículos.,Usa Grime 1977 para la definición de perturbación.,Por verificar
+"Connell y Slatyer 1977, Am. Nat. 111:1119-1144",Resumen,"Tres modelos (facilitación, tolerancia, inhibición); facilitación sobre todo en sucesiones primarias.",Texto completo no abierto.,Verificada
+"Levins 1969, Bull. Entomol. Soc. Am. 15(3):237-240",Fuentes secundarias,Modelo dp/dt = c·p·(1−p) − e·p.,Artículo original no abierto.,Verificada
+"Hastings 1980, Theor. Popul. Biol. 18:363-373",Citas en otras obras,Existencia y datos bibliográficos.,Contenido solo por el título; abre el artículo antes de atribuirle resultados.,Parcial
+"Tilman 1994, Ecology 75(1):2-16",Fuentes secundarias,Coexistencia con compromiso competencia-colonización en hábitats estructurados.,Artículo original no abierto.,Verificada
+"Fernández-Pascual et al. 2026, J. Veg. Sci. 37(2):e70140",Texto completo,"14.357 registros, 997 especies; germinación retardada menos probable en especies adaptadas a perturbación.","Especies de angiospermas europeas, laboratorio, perturbación por proxy.",Verificada
+"Eager et al. 2013, Am. Nat. 182(2)",Resumen,Especialistas cuyas semillas germinan solo en suelo perturbado.,Texto completo no abierto.,Verificada
+"Eager, Rebarber y Tenhumberg 2014, Bull. Math. Biol. 76:1809-1834",Datos bibliográficos,Referencia confirmada.,Artículo no abierto.,Verificada
+"Eager et al. 2018, Am. Nat. 190:570-583",Resumen,Autocorrelación temporal de perturbaciones modifica la dinámica de especialistas.,Texto completo no abierto.,Verificada
+"Hodgson et al. 2020, Ann. Bot. 126(7):1109-1128",Resumen,Más de 800 anuales; rendimiento de semillas por planta crece con el tamaño.,No trata asignación a reproducción.,Verificada
+"Crawley 2004, Ecology 85:3277-3288",Página del experimento Pound Hill,Comunidad ruderal de anuales; abundancia mayor cuando el régimen coincide con la germinación.,Artículo original no abierto.,Verificada
+"Holst, Rasmussen y Bastiaans 2007, Weed Res. 47(1):1-14",Resumen,"134 publicaciones, 60 especies de malezas.",No verifiqué la afirmación sobre escasa validación de los modelos.,Verificada
+"Abley, Goswami y Locke 2024, Phil. Trans. R. Soc. B 379:20230048",Resumen,Variabilidad en el tiempo de germinación como bet-hedging.,Texto completo no abierto.,Verificada
+"Bezodis y Penfield 2024, Seed Sci. Res. 34:48-55",Texto completo,Efectos maternos sobre la dormancia; nitrógeno no monótono en Amaranthus retroflexus.,Nada pendiente.,Verificada
+"Liu et al. 2025, J. Ecol. (10.1111/1365-2745.70146)",Blog de los autores,7.037 especies; ruderales con semillas pequeñas y bancos densos.,No vi los resultados del artículo; correlacional.,Parcial
+"Thompson y Grime 1979, J. Ecol. 67:893-921",Resumen,Bancos de semillas transitorios y persistentes.,Texto completo no abierto.,Verificada
+"Herben et al. 2018, Oikos 127(8) (cuarta esquina)",Resumen,Muy pocas especies con baja productividad y perturbación severa.,Flora centroeuropea.,Verificada
+"Herben et al. 2018, Funct. Ecol. 32(3):799-808",Resumen,Frecuencia y severidad seleccionan rasgos distintos; el banco de yemas responde fuertemente a la perturbación.,El rebrote vegetativo queda fuera de la v0.2: declarar como límite.,Verificada
+"Jabot y Pottier 2012, J. Ecol. 100(6)",Resumen,CSR y teoría de recursos con ecuaciones diferenciales.,Autores: Jabot y Pottier (no Pavoine).,Verificada
+"Colasanti y Grime 1993, Funct. Ecol. 7(2)",Listado de Scopus,Título y datos bibliográficos.,Resumen no leído.,Parcial
+"Colasanti y Hunt 1997, Funct. Ecol.",Resumen,Modelo autoensamblado de plantas modulares.,Texto completo no abierto.,Verificada
+"Colasanti, Hunt y Askew 2001",No encontrada,No pude confirmar existencia ni DOI.,Usa 1997 y 2007 hasta confirmarla.,No confirmada
+"Colasanti, Hunt y Watrud 2007, Ecol. Model. 203(3):363-374",Resumen,Autómata celular con tipos funcionales C-S-R.,Texto completo no abierto.,Verificada
+"Bornhofen, Barot y Lattaud 2011, Ecol. Model. 222(1)",Texto parcial,"Emergencia de estrategias C, S y R.",Texto completo no abierto.,Verificada
+"Levin et al. 2003, Annu. Rev. Ecol. Evol. Syst. 34:575-604",Resumen,Modelos de dispersión; importa la distribución completa de distancias.,Texto completo no abierto.,Verificada
+"Modelo de dispersión de anual con banco de semillas, Ecol. Model. 2005",No confirmada,Existen modelos integrodiferencia de este tipo.,Referencia no confirmada. Sustituto: Perry y González-Andújar 1993.,No confirmada
+"Perry y González-Andújar 1993, J. Ecol. 81:453-463",Resumen,"Metapoblación de anual con banco de semillas, dormancia y dispersión.",Texto completo no abierto.,Verificada
+"Daphne rodriguezii, PLoS ONE (PMC1999654)",Resumen,Modelo individuo-basado de dispersión y reclutamiento.,Tangencial: no es una ruderal.,Verificada
+Aborto de flores y frutos y regulación fuente-sumidero,Revisiones y estudios,Depende del balance fuente-sumidero y de señales hormonales y de azúcares.,Sin una cita única.,Parcial
+"White y Jentsch 2001, Prog. Bot. 62",Solo como cita,Citada en Fernández-Pascual et al. 2026.,Grime 1977 define la perturbación directamente.,Parcial

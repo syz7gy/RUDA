@@ -1,0 +1,28 @@
+﻿id,etiqueta,tipo,grupo,capa,mecanismos,x,y,definicion
+PERT_FREC,Frecuencia de\nperturbación,Exógena,entorno,nucleo,M1;M2;M5,20.0,14.4,Número de eventos de perturbación por unidad de tiempo (λ en la ecuación candidata).
+PERT_SEV,Severidad de\nperturbación,Exógena,entorno,nucleo,M2;M4;M5,16.4,14.4,Fracción de biomasa o de plantas que cada evento destruye (relacionada con p). Frecuencia y severidad no son intercambiables (Herben et al. 2018).
+BIOM_PERD,Biomasa destruida\npor perturbación,Auxiliar,entorno,nucleo,M1;M2;M5,16.4,12.0,Biomasa vegetal perdida por la perturbación. La perturbación se define como pérdida medible de biomasa (White y Jentsch 2001; Grime 1979).
+ESPACIO,Espacio libre,Auxiliar,entorno,nucleo,M1;M5,9.2,9.2,"Espacio disponible para establecimiento (capacidad menos ocupación). Variable calculada, no un stock independiente."
+COMP,Competidoras,Estado,competidoras,nucleo,M5,12.8,9.2,Población de plantas competidoras que ocupan espacio y recursos.
+ESTAB,Establecimiento\nde plántulas,Auxiliar,ruderal,nucleo,M1;M5,9.2,6.4,Probabilidad de que una plántula germinada sobreviva y se establezca. Llegar o germinar no implica establecerse.
+BANCO,Banco de\nsemillas viables,Estado,ruderal,nucleo,M3;M4,2.0,6.4,Semillas viables en el suelo (stock).
+GERM,Germinación,Flujo,ruderal,nucleo,M1;M4,5.6,6.4,Flujo de semillas del banco que germinan en el período.
+JUV,Plántulas y\njuveniles,Estado,ruderal,nucleo,M1;M2,12.8,6.4,Plántulas y juveniles establecidos (stock).
+VEG,Plantas en crecimiento\nvegetativo,Estado,ruderal,nucleo,M2,16.4,6.4,Plantas que aún no producen semillas (stock).
+REP,Plantas\nreproductivas,Estado,ruderal,nucleo,M2;M3,20.0,6.4,Plantas capaces de producir semillas viables (stock).
+SEM_PROD,Semillas viables\nproducidas,Flujo,ruderal,nucleo,M3,23.6,6.4,Flujo de semillas viables producidas por las plantas reproductivas.
+LLEGADA,Llegada de semillas\nal sitio (q),Flujo,ruderal,nucleo,M3,23.6,3.8,"Fracción q de las semillas producidas que llega y permanece viable en el sitio. En v0 se modela un solo sitio, sin espacio explícito."
+AGUA,Agua disponible,Exógena,entorno,detalle,M1,5.6,12.0,Humedad disponible para germinación y establecimiento.
+PRODUCTIVIDAD,Productividad del hábitat\n(recursos),Exógena,entorno,detalle,M2;M3;M5,12.8,12.0,"Productividad / disponibilidad de recursos. En el marco CSR, las ruderales se asocian a hábitats productivos con perturbación alta."
+AMB_MATERNO,Ambiente de la\nplanta madre,Exógena,entorno,detalle,M4,5.6,1.8,"Temperatura, fotoperíodo y estado nutricional durante el desarrollo de la semilla."
+SENALES,"Señales de germinación\n(luz, T° alterna, humedad)",Auxiliar,entorno,detalle,M1,5.6,9.2,Señales ambientales que habilitan la germinación. No existe una señal universal.
+FRAC_LAT,Fracción latente\n(dormancia),Rasgo/parámetro,rasgo,detalle,M1;M4,5.6,3.9,"Fracción de semillas que no germina aunque las condiciones sean favorables (dormancia, bet-hedging)."
+TIEMPO_REP,Tiempo hasta\nla reproducción,Rasgo/parámetro,rasgo,detalle,M2,23.6,12.0,Tiempo T_m entre el establecimiento y la producción de semillas viables.
+ASIG_REP,Asignación a\nreproducción,Rasgo/parámetro,rasgo,detalle,M2;M3,20.0,1.8,Fracción de recursos destinada a estructuras reproductivas y semillas.
+P_REP,Probabilidad de llegar\na reproducirse,Auxiliar,ruderal,detalle,M2,20.0,9.6,Probabilidad de alcanzar la fase reproductiva antes de la siguiente perturbación. Candidata: exp(−λ·p·T_m).
+FECUND,Fecundidad\n(semillas por planta),Auxiliar,ruderal,detalle,M3,20.0,3.9,Semillas producidas por planta reproductiva en el período.
+VIAB,Viabilidad\nde semillas,Rasgo/parámetro,rasgo,detalle,M3,23.6,9.6,Proporción de semillas producidas que son viables.
+TAM_SEM,Tamaño de\nsemilla,Rasgo/parámetro,rasgo,detalle,M3,9.2,3.9,Masa individual de la semilla (compromiso entre número y tamaño).
+DISPERSION,Capacidad\nde dispersión,Rasgo/parámetro,rasgo,detalle,M3;M5,16.4,1.8,Capacidad de las semillas de desplazarse a otros sitios. En v0 es solo un parámetro.
+SUPERV_BANCO,Supervivencia de semillas\nen el banco,Rasgo/parámetro,rasgo,detalle,M4,2.0,9.4,Probabilidad de que una semilla permanezca viable de un período a otro (s_B).
+PROF,Profundidad de\nentierro de semillas,Auxiliar,entorno,detalle,M4,2.0,12.0,Profundidad a la que quedan las semillas tras una perturbación del suelo.
